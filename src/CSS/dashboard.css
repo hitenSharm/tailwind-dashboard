@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.flex-container {
+  display: flex;
+  height: max(100%, 100vh);
+  width: 100%;
+  padding: 40px;
+  background-color: #f5f5f5;
+}

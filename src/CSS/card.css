@@ -1,0 +1,34 @@
+.cardOuterContainer {
+  display: flex;
+  margin: 40px 0px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cardContainer {
+  height: 120px;
+  width: 200px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.cardInnerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.cardTitle {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.cardNumber {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}

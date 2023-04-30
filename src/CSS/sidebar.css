@@ -1,0 +1,49 @@
+.sidebarOuterContainer {
+  background: #000000;
+  border-radius: 30px;
+  padding: 40px 35px;
+  height: calc(100vh - 80px);
+  width: 280px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  left: 40px;
+}
+
+.sidebarTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.sidebarInnerContainer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: calc(100vh - 244px);
+}
+.sidebarTitleContainer {
+  display: flex;
+}
+.sidebarNavigationTitle {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.sidebarBottomTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

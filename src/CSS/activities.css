@@ -1,0 +1,32 @@
+.activityContainer {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  height: 450px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.activityTitle {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+.activityRange {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #858585;
+  margin-right: 5px;
+}
+.activityInnerContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.chartContainer {
+  height: 350px;
+}
